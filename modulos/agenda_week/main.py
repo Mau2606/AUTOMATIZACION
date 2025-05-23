@@ -110,7 +110,7 @@ if __name__ == "__main__":
     ruta_excel = 'audiencias.xls'  # Puede ser .xls o .xlsx
     ruta_word_plantilla = os.path.join(os.getcwd(), 'plantillas')  # Puede ser .doc o .docx
     ruta_base = os.path.join(os.getcwd(), 'salida')  # Carpeta donde se creará la estructura
-    tipo_semana = 'CONT'
+    tipo_semana = 'PIFAX'
 
     gestor = GestorPrincipal(ruta_excel, ruta_word_plantilla, ruta_base, tipo_semana)
     gestor.procesar()
