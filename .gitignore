@@ -1,0 +1,8 @@
+env-auto/
+*.wav
+*.m4a
+.idea/
+modulos/transcriptor/transcripciones/
+modulos/agenda_week/salida/
+**/__pycache__/
+trash/
